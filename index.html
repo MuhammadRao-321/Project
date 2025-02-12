@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML STRUCTURE</title>
+        <link rel="stylesheet" href="style.css">
+    <style>
+        h2{
+            color: aquamarine;
+        }
+        @keyframes An1 {
+            0%  {background-color:aqua;}
+            25%  {background-color: green;}
+            50%  {background-color: rgb(128, 0, 30);}
+            75%  {background-color: rgb(0, 0, 128);}
+            100%  {background-color: rgb(128, 0, 0);}
+        }
+        #Animation{
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            animation-name: An1;
+            animation-duration: 10s;
+        }
+        .example1 {
+            width: 150px;
+            background-color: rgb(255, 0, 0);
+            padding: 0px 100px 200px 300px;
+            border: 10px;
+            margin: 30px;
+        }
+        .example2 {
+            width: 150px;
+            background-color: chartreuse;
+            padding: 180px;
+            border: 15px solid black;
+            margin: 260px 100px;
+        }
+        #flyright{
+            float: right;
+        }
+        #flyleft{
+            float:left;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: blueviolet;">Inline CSS</h1>
+    <h2>Internal CSS</h2>
+        <hr>
+        <img id="flyright" src="IMG.png" alt="tree"
+        style="width: 150px;height: 150px;">
+        <img id="flyleft" src="IMG.png" alt="tree"
+        style="width: 1000px;height: 1000px;">
+        <p class="example1">My content is humanized</p>
+        <p class="example2">Accounty</p>
+    <h3>External CSS</h3>
+    <hr>
+    <h1 id="lgs">ID Selector</h1>
+    <h1 class="css">Class Selector</h1>
+    <h1 class="html">Class Selector</h1>
+    <hr>
+    <h4>Group Selector</h4>
+    <p>Group Selector</p>
+    <!--Hi this is my comment in first project-->
+    <br>This is a website>
+    <ol>
+        <li>It contains title</li>
+        <li>It contains HTML elements</li>
+    </ol>
+    <h2>This is a webpage</h2>
+    <ul>
+        <li>It is a single part of a website</li>
+        <li>It can contain many information</li>
+    </ul>
+    <h3>There are many webpages in a website</h3>
+    <dl>
+        <dt>Homepage</dt>
+        <dd>This is the homepage of a website</dd>
+        <dt>Information</dt>
+        <dd>This contains all the information about the website</dd>
+    </dl>
+    <h4>There are different Programming Languages</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Language</th>
+                <th>Creater</th>
+                <th>Time Period</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Javascript</td>
+                <td>Brendan Eich</td>
+                <td>1995</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>James Gosling</td>
+                <td>1995</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Guido Van Rossum</td>
+                <td>1991</td>
+            </tr>
+        </tbody>
+    </table>
+    <centre>
+    <h5>This is a heading tag</h5>
+    <img src="IMG.png" alt="IMG" width="200" height="200">
+    </centre>
+    <h6>This is a heading tag</h6>
+    <video width="500" height="500" controls autoplay poster="IMG.png" loop>
+        <source src="Video.mp4" type="video/mp4">
+    </video>
+    <p>We can add different elements to an HTML website</p>
+    <iframe width="500" height="200" src="https://www.youtube.com/embed/wSyhlJz4wkY?si=qISz8wQv77Tv4G-i">
+    </iframe>
+    This is my first Codingal Class and my first project<br>
+    If you want to go to Codingal website, click here.
+    <a href="https://www.codingal.com/">Codingal</a><br>
+    <header>
+    <b>My name is Muhammad Rao</b><br>
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Information">Information</a></li>
+            <li><a href="#Contact Us">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <strong>I am 11 years old</strong><br>
+    <article>
+        Pakistan, populous multiethnic country of South Asia. Having a predominately Indo-Iranian speaking population, Pakistan has historically and culturally been associated with its neighbours Iran, Afghanistan, and India. Since Pakistan and India achieved independence from British rule on August 14−15, 1947, celebrated as Independence Day, Pakistan has been distinguished from its larger southeastern neighbor by its overwhelmingly Muslim population (as opposed to the predominance of Hindus in India). Pakistan has struggled throughout its existence to attain political stability and sustained social development. Its capital is Islamabad, in the foothills of the Himalayas in the northern part of the country, and its largest city is Karachi, in the south on the coast of the Arabian Sea.
+        <div>Pakistan</div>
+    </article>
+    <aside>
+        <article>
+            At the time of partition in 1947, as many as 10 million Muslim refugees fled their homes in India and sought refuge in Pakistan—about 8 million in West Pakistan. Virtually an equal number of Hindus and Sikhs were uprooted from their land and familiar surroundings in what became Pakistan, and they fled to India. Unlike the earlier migrations, which took centuries to unfold, these chaotic population transfers took hardly one year.
+        </article>
+    </aside>
+</section>
+<form>
+    <fieldset>
+        <legend>Personal Information</legend>
+    <label>Name</label><br>
+    <input type="text" id="name" placeholder="Enter your name"><br>
+    <label>Email I'd</label><br>
+    <input type="text" id="email"><br>
+    <label>Contact No.</label>
+    <input type="password" id="contact"><br>
+    <label>Gender</label>
+    <input type="radio" id="male" name="gender"
+    value="Male">Male<br>
+    <input type="radio" id="female" name="gender"
+    value="feMale">feMale<br>
+    <label>Favourite City</label>
+    <input type="checkbox" id="city" value="Lahore">Lahore<br>
+    <input type="checkbox" id="city" value="Islamabad">Islamabad<br>
+    <input type="checkbox" id="city" value="Karachi">Karachi<br>
+    <label>Birthday</label>
+    <input type="date" id="birthday" name="Birthday"><br>
+    <button>Sumbit</button>
+</fieldset>
+</form>
+<fieldset>
+    <legend>Enter your Marks</legend>
+    <form oninput="x.value=(parseInt(m1.value)+parseInt(m2.value)+parseInt(m3.value))/3">
+    <label>Name</label>
+    <input type="text" id="name"><br>
+    <label>Marks</label>
+    <select name="Subject" id="subject">
+        <option value="Maths">Maths</option>
+        <option value="English">English</option>
+        <option value="Urdu">Urdu</option>
+    </select> 
+    <input type="number" id="m1" name="m1"><br>
+    <select name="Subject#2" id="subject">
+        <option value="Maths">Maths</option>
+        <option value="English">English</option>
+        <option value="Urdu">Urdu</option>
+    </select>
+    <input type="number" id="m2" name="m2"><br>
+    <select name="Subject#3" id="subject">
+        <option value="Maths">Maths</option>
+        <option value="English">English</option>
+        <option value="Urdu">Urdu</option>
+    </select> 
+    <input type="number" id="m3" name="m3"><br>
+    Average: <output name="x" for="m1 m2 m3"></output>
+    </form>
+</fieldset>
+    <i>I live in Lahore,Pakistan</i><br>
+    <em>I study in Lahore Grammar School</em><br>
+    <mark>I am in 8 Class</mark><br>
+    <small>I love to read books</small><br>
+    <del>I spent my free time in playing cricket</del><br>
+    Currently I'm doing <sup>Codingal course</sup> in <sub>2025</sub>
+    <footer>
+        Contact Information<br>
+        For more information, Call at +92 333 8149497
+    </footer>
+    <div id="Animation">
+        This is an animation
+    </div>
+</body>
+</html>
